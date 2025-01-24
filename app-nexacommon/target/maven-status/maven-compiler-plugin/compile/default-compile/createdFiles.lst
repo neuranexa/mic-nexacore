@@ -1,2 +1,9 @@
-com\neuranexa\core\FinolApp.class
+com\neuranexa\core\controller\NeuraNexaGenericController.class
 com\neuranexa\core\TestNeura.class
+com\neuranexa\core\exception\DomainException.class
+com\neuranexa\core\mapper\GenericMapperUtil.class
+com\neuranexa\core\repository\NeuraNexaGenericRepository.class
+com\neuranexa\core\FinolApp.class
+com\neuranexa\core\service\NeuraNexaGenericService.class
+com\neuranexa\core\mapper\GenericDocMapper.class
+com\neuranexa\core\mapper\GenericDtoMapper.class
