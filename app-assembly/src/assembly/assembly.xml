@@ -22,9 +22,20 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <binaries>
-                <outputDirectory>/</outputDirectory> <!-- Coloca los módulos en la raíz -->
+                <outputDirectory>lib</outputDirectory> <!-- Coloca los módulos en el directorio lib -->
                 <unpack>false</unpack>
             </binaries>
         </moduleSet>
     </moduleSets>
+
+    <!-- Incluir POM -->
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+    </fileSets>
 </assembly>
